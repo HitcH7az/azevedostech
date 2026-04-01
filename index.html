@@ -3,44 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidade - Azevedos Tech</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-        .container { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        h2 { color: #2980b9; margin-top: 25px; }
-        p { margin-bottom: 15px; }
-        footer { margin-top: 40px; font-size: 0.8em; color: #7f8c8d; text-align: center; }
-        .contact { background: #e8f4fd; padding: 15px; border-radius: 4px; border-left: 5px solid #3498db; }
-    </style>
+    <title>Azevedos Tech - Criando o Futuro com SaaS e Apps</title>
+    <meta name="description" content="Azevedos Tech: Especialistas em desenvolvimento de SaaS e Aplicativos Mobile inovadores.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Ionicons for some beautiful icons without heavy libraries -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Política de Privacidade</h1>
-        <p><strong>Azevedos Tech</strong></p>
 
-        <p>A Azevedos Tech valoriza a segurança e a privacidade de nossos pequenos usuários. Abaixo, detalhamos como tratamos as informações no aplicativo "Aprenda Brincando".</p>
-
-        <h2>1. Coleta de Dados</h2>
-        <p>Não coletamos, armazenamos ou compartilhamos qualquer dado pessoal do usuário (como nome, localização ou contatos).</p>
-
-        <h2>2. Uso Offline</h2>
-        <p>O aplicativo funciona 100% offline. Nenhuma informação de progresso sai do dispositivo.</p>
-
-        <h2>3. Publicidade</h2>
-        <p>Utilizamos anúncios do tipo "Premiado" (Rewarded Ads) apenas quando solicitado pelo usuário para ganhar recompensas dentro do jogo. Esses anúncios são filtrados para serem seguros para crianças.</p>
-
-        <h2>4. Links Externos</h2>
-        <p>O aplicativo não contém links para redes sociais ou sites externos, exceto áreas protegidas por um desafio matemático (Parental Gate).</p>
-
-        <div class="contact">
-            <h2>5. Contato</h2>
-            <p>Para dúvidas sobre privacidade, entre em contato em: <strong>azevedostech@gmail.com</strong></p>
+    <nav class="container">
+        <div class="logo">
+            <ion-icon name="code-slash-outline"></ion-icon> Azevedos <span>Tech</span>
         </div>
+        <div class="nav-links">
+            <a href="#apps">Nossos Apps</a>
+            <a href="#saas">SaaS</a>
+            <a href="privacy.html">Privacidade</a>
+            <a href="#contato" class="btn btn-primary" style="padding: 0.5rem 1.5rem; margin-left:1rem;">Contato</a>
+        </div>
+    </nav>
 
-        <footer>
-            <p>Última atualização: Fevereiro de 2026.</p>
-        </footer>
-    </div>
+    <header class="container hero">
+        <div class="hero-content">
+            <h1>Soluções Digitais <br> <span class="text-gradient">Inovadoras</span> para o Mundo</h1>
+            <p>Criamos Softwares e Aplicativos (SaaS) que transformam vidas e negócios. Focados em performance, escalabilidade e na melhor experiência para o usuário.</p>
+            <div class="hero-btns">
+                <a href="#apps" class="btn btn-primary">Conhecer Projetos</a>
+                <a href="#contato" class="btn btn-outline">Falar Conosco</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="apps" class="container">
+        <h2 class="section-title">Nossos Destaques <span class="text-gradient">Mobile</span></h2>
+        
+        <div class="features-grid">
+            <!-- App Card -->
+            <div class="glass-panel feature-card">
+                <h3>
+                    <ion-icon name="game-controller-outline" class="feature-icon"></ion-icon>
+                    Aprenda Brincando
+                </h3>
+                <p>Nosso inovador aplicativo educativo. Desenhado com carinho para crianças aprenderem se divertindo, de forma 100% offline e segura, respeitando sempre a privacidade dos pequenos.</p>
+                <a href="privacy.html" style="display:inline-block; margin-top:20px; font-weight:600;">Ver Política de Privacidade →</a>
+            </div>
+
+            <!-- Future App Placeholder -->
+            <div class="glass-panel feature-card" style="opacity: 0.7;">
+                <h3>
+                    <ion-icon name="rocket-outline" class="feature-icon"></ion-icon>
+                    Em Breve...
+                </h3>
+                <p>Nossa fábrica de aplicativos não para. Fique de olho, em breve novidades fantásticas serão lançadas para facilitar ainda mais o seu dia a dia.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="saas" class="container">
+        <h2 class="section-title">Soluções <span class="text-gradient">SaaS</span></h2>
+        
+        <div class="features-grid">
+            <div class="glass-panel feature-card">
+                <h3>
+                    <ion-icon name="server-outline" class="feature-icon"></ion-icon>
+                    Sistemas Escaláveis
+                </h3>
+                <p>Micro SaaS construídos nativamente para nuvem (Cloud Native), com arquiteturas robustas para crescer junto com seu modelo de negócio, sem surpresas de infraestrutura.</p>
+            </div>
+
+            <div class="glass-panel feature-card">
+                <h3>
+                    <ion-icon name="speedometer-outline" class="feature-icon"></ion-icon>
+                    Alta Performance
+                </h3>
+                <p>Nossas soluções entregam respostas em milissegundos, focadas no engajamento do usuário e em taxas máximas de conversão baseadas em métricas claras.</p>
+            </div>
+
+            <div class="glass-panel feature-card">
+                <h3>
+                    <ion-icon name="shield-checkmark-outline" class="feature-icon"></ion-icon>
+                    Segurança de Dados
+                </h3>
+                <p>O rigor da Azevedos Tech assegura a proteção da propriedade intelectual e dos dados, operando sob as diretrizes de privacidade globais e melhores práticas de mercado.</p>
+            </div>
+        </div>
+    </section>
+
+    <section " id="contato" class="container">
+        <div class="glass-panel" style="text-align: center; max-width: 600px; margin: 0 auto;">
+            <ion-icon name="mail-unread-outline" style="font-size: 3rem; color: var(--accent-primary);"></ion-icon>
+            <h2 style="margin: 1.5rem 0;">Quer construir algo incrível?</h2>
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">Estamos prontos para ouvir sua ideia, fechar parcerias ou responder a qualquer dúvida que você tenha sobre a Azevedos Tech.</p>
+            <a href="mailto:azevedostech@gmail.com" class="btn btn-primary">Enviar um Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Azevedos Tech. Todos os direitos reservados.</p>
+            <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 15px;">
+                <a href="privacy.html" style="color: var(--text-muted);">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
